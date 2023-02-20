@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Rebekah</title>
+        <title>Contact Me</title>
         <link rel="icon" type="image/png" href="img/favicon-32x32.png"/>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,28 +18,46 @@
             <nav class="main-navigation page-header__item">
                 <ul role="menubar"class="navigation-list">
                     <li role="presentation" >
-                       <a href="Home Page.html" role="menuitem"class="navigation-list__item navigation-list__item--active">Home</a>
+                       <a href="index.html" role="menuitem"class="navigation-list__item navigation-list__item--active">Home</a>
                     </li>
                     <li role="presentation">
-                       <a href="About Rebekah.html" role="menuitem" class="navigation-list__item">About</a>
+                       <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
                     </li>
                     <li role="presentation">
-                        <a href="My Projects.html" role="menuitem" class="navigation-list__item navigation-list">Work</a>
+                        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list">Work</a>
                      </li>
-                   <li role="presentation">
-                       <a href="Contact Rebekah.html" role="menuitem" class="navigation-list__item">Contact</a>
-                    </li>
                  </ul>
             </nav>
         </header>
-        <div class="profile">
-            <img src="img/untitled-2564.jpg" class="profile__portrait" alt="black and white profile picture of Rebekah Willis" width="200" 
-            height="200">
-            <h1>Hello World!</h1>
-            <p>My name is Rebekah Willis.</p>
-            <p>I am a <span>web</span> developer from Philadephia based in Arizona.</p>
-            <a href="#">Check out some of my code</a>
+        <h1> My Contact Info</h1>
+        <div>
+        <!--My contact info-->
+            PO Box 433<br>
+            Hollywood, California<br>
+            90780, United States<br>
+            <br> Tel <a href="tel:+14804149116">+1 480-414-9116</a>
+            <br> Email <a href="mailto:rbkh.hagen@gmail.com"> rbkh.hagen@gmail.com</a>
+            <br> <br> <a href="mailto:rbkh.hagen@gmail.com">Contact Me </a>
             <br>
+            <h3>Get in Touch with me!</h3>
+            <br>
+            <!--Button-->
+           
+        <!--user fill out form-->
+        <form action="" method="post" id="contact-form">
+            <label for="contact-email">Email:
+            </label>
+            <input type="email" id="contact-email" required="">
+            <br>
+            <label for="contact-tel">Phone Number:
+            </label>
+            <input type="tel" id="contact-tel"pattern="\d{3}[\-]\d{3}[\-]\d{4}"required="">
+            <br>
+            <label for="my-input">Message:
+            </label>
+            <textarea id="my-input" maxlength="240" style="width: 115px; height: 34px;" required></textarea>
+            <input type="submit" value="Send message">
+          </form>
         </div>
         <footer class="page-footer">
             <p>Find me on</p>
@@ -49,6 +67,6 @@
             <img src="img/linkedin_icon.svg" alt="linkedin">
             </div>
           </footer>
-       <script src="js/tota11y.min.js"></script> 
+    <script src="js/tota11y.min.js"></script>  
     </body>
 </html>
