@@ -1,41 +1,57 @@
 :root {
-  --primary-color: #9cb8dc;
-  --secondary-color: #FFA07A;
-  --dark-grey: #2b2b2b;
+  /* Colors */
+  --text-color-dark-blue: #1c4464;
+  --color1: #265450;
+  --color2: #357b70;
+  --color3: #07464b;
+  --color4: #1f4133;
+  --color5: white;
+  --background-color: #fff8ed;
+  --border-buttom-color: rgba(0, 0, 0, 0.3);
+  --background-color1: rgba(0, 0, 0, 0.5);
+  --background-color2: #e0e0e0;
+  --fill-color1: hsl(0, 0%, 0%);
+  --fill-color2: hsl(0, 100%, 43%);
+  --fill-color3: hsl(48, 100%, 50%);
+  --fill-color4: #a80800;
   /*  ^^ Text Color */
-  --font-weight: 400;
-  --h-font-weight: 700;
-  --font-size: 16px;
-  --line-height: 1.6;
+  --font-family: "Source Sans 3", sans-serif;
+  --font-size-small: 14px;
+  --font-size-base: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 24px;
+  --font-weight: 700;
+  --line-height: 1.4;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-weight: var(--font-weight);
     font-size:var(--font-size);
     line-height: var(--line-height);
   }
   
   h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 30px;
     font-weight: var(--h-font-weight);
   }
   
   h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 24px;
     font-weight: var(--h-font-weight);
   }
   nav {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-weight: var(--font-weight);
     font-size: var(--font-size);
     line-height: var(--line-height);
   }
   table {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-weight: var(--font-weight);
     font-size: var(--font-size);
     line-height: var(--line-height);
