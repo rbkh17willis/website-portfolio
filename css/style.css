@@ -17,10 +17,15 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: var(--font-weight);
-    font-size:var(--font-size);
-    line-height: var(--line-height);
+     /* Font */
+  --font-family: "Source Sans 3", sans-serif;
+  --font-size-small: 14px;
+  --font-size-base: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 24px;
+  --font-weight: 700;
+  --line-height: 1.4;
   }
   
   h1 {
