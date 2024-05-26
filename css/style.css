@@ -145,7 +145,7 @@ body {
  
   }
   .grid__item {
-    background-color: lightgray;
+    background-color: rgb(246, 217, 245);
     width: auto;
     min-height: auto;
     margin: 0;
