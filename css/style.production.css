@@ -293,3 +293,10 @@
                 transform: scale(1.01);
       }
     }
+
+    .my-contact {
+      font-size: large;
+      font-weight: bold;
+      margin-top: 25px;
+      text-align: center; 
+    }
