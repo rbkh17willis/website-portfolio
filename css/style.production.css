@@ -255,6 +255,7 @@
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
+    display: flex;
   }
   .aboutfacts {
     display: inline-block;
